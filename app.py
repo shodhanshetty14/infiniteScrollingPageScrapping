@@ -74,7 +74,7 @@ def companyDetails(compantLinks):
         # print(twitter)
         op = re.sub(r'\bFollow\b\s+',"",twitter)
 
-        company['twitter'] = op
+        company['twitter'] = 'https://twitter.com/' + op 
         print(company)
         print()
 
