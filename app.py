@@ -7,7 +7,7 @@ import re
 
 url = "https://startuplister.com/"
 
-driver = webdriver.Firefox()
+driver = webdriver.Chrome()
 driver.maximize_window() 
 
 
